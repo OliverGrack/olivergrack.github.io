@@ -1,0 +1,20 @@
+@import "style/reset";
+@import "style/slide";
+@import "style/typo";
+@import "style/util";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+hr { 
+  border: 0; 
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+h1,h2,h3 {
+  font-family: 'Crete Round', serif;
+}

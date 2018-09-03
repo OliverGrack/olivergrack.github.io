@@ -1,0 +1,21 @@
+.card {
+	border-radius: .75rem;
+	background: white;
+	box-shadow: 0 .25rem 10px rgba(black, .075);
+	border: 1px solid rgba(black, .075);
+}
+
+.card-text {
+	padding: 1rem;
+	max-width: 560px;
+}
+
+.page-slide {
+	position: relative;
+}
+.page-slide-header {
+	.pp {
+		max-width: 400px;
+		border: 1px solid white;
+	}
+}

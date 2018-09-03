@@ -1,0 +1,47 @@
+.page-slide-padding {
+	padding: 5rem 2rem;
+}
+
+.flex-parent {
+	display: flex;
+}
+.flex-parent-image-text {
+	align-items: center;
+	justify-content: center;
+	margin: 2rem 0;
+	.card-img {
+		z-index: 1;
+		width: 90vw;
+	}
+	@media screen and (max-width: 720px) {
+		flex-direction: column;
+		.card-text {
+			padding-top: 2.5rem;
+			margin-top: -1.5rem;
+		}
+	}
+	@media screen and (min-width: 721px) {
+		&:not(.flex-parent-image-text-flipped) {
+			.card-text {
+				padding-left: 5rem;
+				margin-left: -4rem;
+			}
+		}
+	}
+}
+
+.flex-parent-image-text-flipped {
+	@media screen and (min-width: 721px) {
+		.card-img {
+			order: 1;
+		}
+		.card-text {
+			padding-right: 5rem;
+			margin-right: -4rem;
+		}
+	}
+}
+
+.page-slide-secondary {
+	background: #e8f1ff;
+}

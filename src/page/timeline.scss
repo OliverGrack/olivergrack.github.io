@@ -1,0 +1,32 @@
+$line_color: rgb(56, 56, 71);
+$line_width: .25rem;
+$point_size: 1rem;
+
+.timeline-line {
+	background: $line_color;
+	width: $line_width;
+	display: block;
+	border-radius: $line_width / 2;
+}
+.timeline-item {
+	position: relative;
+	padding: 1rem;
+	margin: 2rem 1rem;
+	max-width: 620px;
+	&:before {
+		content: "";
+		position: absolute;
+		top: calc(50% - #{$point_size / 2});
+		left: -1.65rem;
+		border-radius: 50%;
+		width: $point_size;
+		height: $point_size;
+		background: white;
+		border: $line_width solid $line_color;
+	}
+}
+.page-slide-timeline {
+	.flex-parent {
+		justify-content: center;
+	}
+}
