@@ -1,5 +1,8 @@
 .page-slide-padding {
 	padding: 5rem 2rem;
+	@media screen and (max-width: 720px) {
+		padding: 2rem 2rem;
+	}
 }
 
 .flex-parent {
@@ -11,7 +14,8 @@
 	margin: 2rem 0;
 	.card-img {
 		z-index: 1;
-		width: 90vw;
+		max-width: 90vw;
+		max-height: 75vh;
 	}
 	@media screen and (max-width: 720px) {
 		flex-direction: column;

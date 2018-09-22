@@ -30,7 +30,7 @@ export class Contact extends React.Component {
 		return (
 			<div className="page-slide page-slide-header page-slide-padding page-slide-secondary">
 				<div className="flex-parent flex-parent-image-text flex-parent-image-text-flipped">
-					<img className="card card-img max-width-300" src={ME_IMG} />
+					<img className="card card-img width-300" src={ME_IMG} />
 					<div className="card card-text">
 						<h2>Contact me</h2>
 						<p>
