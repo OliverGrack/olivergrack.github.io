@@ -1,13 +1,15 @@
 import * as React from "react";
-import img_me from "../img/me.jpg";
 import "./header.scss";
+
+const ppImgUrl = "https://gravatar.com/avatar/62046e0f89ebc02873b8b3550d7a5fcb?s=450";
+
 
 export class Header extends React.Component {
 	public render() {
 		return (
 			<div className="page-slide page-slide-header page-slide-padding page-slide-secondary">
 				<div className="flex-parent flex-parent-image-text">
-					<img className="card card-img pp" src={img_me} />
+					<img className="card card-img pp" src={ppImgUrl} />
 					<div className="card card-text">
 						<h2>Oliver Gstöttenbauer</h2>
 						<p>
