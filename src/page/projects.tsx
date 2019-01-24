@@ -2,12 +2,28 @@ import * as React from "react";
 import "./projects.scss";
 
 export class Projects extends React.Component {
-	
 	public render() {
 		return (
 			<div className="page-slide page-slide-projects page-slide-padding page-slide-secondary">
 				<h1 className="align-center padding-bottom-1">Projects</h1>
-				<div className="flex-parent flex-parent-image-text">
+				<div className="project flex-parent flex-parent-image-text flex-parent-image-text-flipped">
+					<video playsinline={true} className="card card-img width-400" muted={true} autoPlay={true} loop={true}>
+						<source src="video/hippie-tree-friends.mp4" type="video/mp4" />
+					</video>
+					<div className="card card-text">
+						<h2>Hippie Tree Friends • November 2018</h2>
+						<p>
+							Hippie Tree Friends is a game, some friends of mine and I developed in a weekend. The most complex part of this project was to coordinate 8 people to work on one game. 
+						</p>
+						<p>
+							Besides managing most of the software engineering I also did some of the art, like those adorable trees.
+						</p>
+						<span className="light-text">
+							Technologies used: Unity, Photoshop, C#
+						</span>
+					</div>
+				</div>
+				<div className="project flex-parent flex-parent-image-text">
 					<video playsinline={true} className="card card-img width-400" muted={true} autoPlay={true} loop={true}>
 						<source src="video/smashblox.mp4" type="video/mp4" />
 						{/*<source src="videos/grack.ogv" type="video/ogg" />*/}
@@ -25,7 +41,7 @@ export class Projects extends React.Component {
 						</span>
 					</div>
 				</div>
-				<div className="flex-parent flex-parent-image-text flex-parent-image-text-flipped">
+				<div className="project flex-parent flex-parent-image-text flex-parent-image-text-flipped">
 					<video playsinline={true} className="card card-img width-300" muted={true} autoPlay={true} loop={true} poster="video/grack.png">
 						<source src="video/grack.mp4" type="video/mp4"/>
 						<source src="video/grack.ogv" type="video/ogg"/>
