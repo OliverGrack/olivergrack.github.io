@@ -1,0 +1,22 @@
+{
+	"cSpell.words": [
+		"CAPTCHA",
+		"Mstack",
+		"Netlify",
+		"Netlify’s",
+		"bulma",
+		"frontmatter",
+		"imorente",
+		"purgecss",
+		"repo"
+	],
+	"editor.formatOnSave": true,
+	"javascript.format.enable": true,
+	"tslint.autoFixOnSave": false,
+	"files.exclude": {
+		"**/node_modules/**": true
+	},
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": false,
+	},
+}
