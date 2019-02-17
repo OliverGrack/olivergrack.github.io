@@ -16,6 +16,7 @@
 		"gatsby-plugin-manifest": "^2.0.17",
 		"gatsby-plugin-offline": "^2.0.23",
 		"gatsby-plugin-react-helmet": "^3.0.6",
+		"gatsby-plugin-remove-serviceworker": "^1.0.0",
 		"gatsby-plugin-sass": "^2.0.10",
 		"gatsby-plugin-sharp": "^2.0.20",
 		"gatsby-plugin-typescript": "^2.0.8",
@@ -46,7 +47,7 @@
 		"serve": "gatsby serve",
 		"test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build -b master"
+		"deploy": "gh-pages -d public -b master"
 	},
 	"repository": {
 		"type": "git",
